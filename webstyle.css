@@ -1,0 +1,167 @@
+/* Colors and Fonts */
+
+body {
+  font-family:'Raleway', sans-serif;
+  background-color: #F0EAE7;
+  color:#432D27 ;
+  font-size: 16px;
+  font-weight: 200px;
+}
+h1,a {
+  font-family:'Raleway', sans-serif;
+}
+
+h1 {
+  color:#432D27;
+  background-color: #C6978E;
+  font-weight: 500px;
+  font-size: 30px;
+  text-align: center;
+}
+
+h2 {
+  color: #6E4B40;
+  font-weight: 400px ;
+  text-align: center;
+  }
+
+  .text-white {
+    color: white ;
+  }
+
+a {
+  text-decoration: none;
+  color: #C6978E;
+  text-align: center;
+  transition: color 0.3 ease;
+}
+
+a:hover {
+  color: #432D27;
+}
+
+img {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+#info {
+  text-align: center;
+  border-top: 2px solid #C6978E;
+  border-bottom: 2px solid #C6978E;
+  margin-bottom: 30px;
+  padding: 10px;
+  position: relative;
+  left: -100%;
+  animation: slide-in-left 1s forwards;
+}
+@keyframes slide-in-left {
+ from {
+  left: -100%;
+ }
+ to {
+  left: 0;
+ }
+}
+
+/* Custom Design with class*/
+
+.container {
+width: 700px;
+margin: 35px auto;
+}
+
+
+@media (max-width: 960px) {
+  .container {
+  width: 700px;
+ }
+}
+
+@media (max-width: 760px) {
+  .container {
+ width: 500px;
+ }
+}
+
+@media (max-width: 540px) {
+  .container {
+  width: 400px;
+ }
+
+}
+div {
+  background: #F0EAE7;
+  box-shadow: none;
+  border-radius: 5px;
+}
+
+.card-pink {
+  margin: 40px 0px;
+  width: 95%;
+  padding: 40px;
+  height: auto;
+  box-shadow: 0px 5px 20px #432D27;
+  background-color:#C6978E;
+  border-radius: 5px;
+  text-align: center;
+  border-top: 2px solid white;
+  border-right:2px solid white ;
+  border-bottom: 2px solid white;
+}
+
+.media{
+  padding: 30px;
+  width: 95%;
+  margin: 40px 0px;
+  background-color:white;
+  box-shadow: 0px 0px 0px;
+  border-radius: 2px;
+  border-left: 2px solid #C6978E;
+  border-right: 2px solid #C6978E;
+  text-align: center;
+}
+
+.links-no-points {
+  list-style-type: none;
+  padding-left: 0px;
+  font-size: 35px;
+}
+
+.links-no-points li {
+  display: inline;
+}
+
+
+.link-in-box {
+background-color:white ;
+color:#C6978E;
+padding: 15px 15px;
+margin: 100px auto;
+border-radius: 5px;
+}
+
+.link-in-box:hover {
+  background-color: #895B4A;
+  color: white;
+}
+
+.pictures {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+img {
+  max-width: 75%;
+  height: auto;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+

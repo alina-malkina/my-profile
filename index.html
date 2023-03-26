@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+	<title>Alina Malkina/Profile Page</title>
+   <meta name="description" content="This is the profile page of Alina Malkina, a first year ESSEC BBA student.">
+   <meta charset="UTF-8">
+   <script src="https://kit.fontawesome.com/943b7c40b1.js" crossorigin="anonymous"></script>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500&display=swap" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="webstyle.css">
+</head>
+
+<body>
+	<style>
+  h1 {
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+     }
+
+  h1.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+</style>
+
+<script>
+  window.addEventListener("load", function() {
+    document.querySelector("h1").classList.add("show");
+  });
+</script>
+
+<div class="container">
+
+	<div class="card-pink">
+	<h1>| Hello. Bonjour. Hola. I am Alina |</h1>
+	<img src="images/my-picture.jpg" class="img-oval" width="200px" alt="Alina Malkina's picture">
+   <p id="info">
+	 Growing up in the sunny lands of Cyprus introduced me to highly international environments, which is why I grew up with an enormous passion towards cultures and interconnectedness. I am currently a 19-year-old Business Administration student with a profound interest towards globalisation and a drive to play a part in building links between people.
+   </p>
+	<a class="link-in-box" href="https://www.linkedin.com/in/alina-malkina-00876b250" target="_blank">Find out more on my LinkedIn!
+   </a>
+   </div>
+
+     <div class="pictures">
+     <h2>Moments</h2>
+     <img src="images/pic-1.jpg" alt="Pic 1">
+     <img src="images/pic-2.jpg" alt="Pic 2">
+     <img src="images/pic-3.jpg" alt="Pic 3">
+     </div>
+
+     <div class="card-pink">
+     	<h2>Literature</h2>
+      <p class="text-white">
+       I have always had a love for classical literature and it shines through in my writing. Poetry and storytelling are my passions and I have had an honor of winning several literature awards in high school.
+      </p>
+     </div>
+
+     <div class="card-pink">
+     	<h2>Volunteering</h2>
+	   <p class="text-white">
+	    I have served as a school prefect and was responsible for organising charity events and fundraising for various causes, which deepened my passion towards social aid.
+	   </p>
+     </div>
+
+     <div class="card-pink">
+     	<h2>Art</h2>
+	   <p class="text-white">
+		 In my free time I love drawing and painting, specifically portraits in pencil or landscapes. It motivates and relaxes me.
+	   </p>
+     </div>
+
+     <div class="media">
+	  	<h2>| Add me |</h2>
+	   <ul class="links-no-points">
+		 <li>
+			<a href="https://www.facebook.com/people/Alina-Malkina/100009233932952/" target="_blank">
+				<i class="fa-brands fa-facebook"></i>
+			</a>
+		 </li>
+
+		 <li>
+         <a href="https://www.instagram.com/_malkina_23/?igshid=YmMyMTA2M2Y%3D" target="_blank">
+	         <i class="fa-brands fa-instagram"></i>
+         </a>
+		 </li>
+	   </ul>
+     </div>
+
+</div>
+</body>
+</html>
+
+
